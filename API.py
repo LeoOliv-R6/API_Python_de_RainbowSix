@@ -14,7 +14,8 @@ app = Flask(__name__) #inicia o flask
 agentes = [
         {
                 'id': 1,
-                'nome': '',
+                'nome': 'Jordan Trace',
+                'local': 'Plano, TX',
                 'agente': 'Thermite',
                 'gadgets': 'Carga Exotérmica',
                 'especialidade': 'invasão, suporte',
@@ -26,7 +27,8 @@ agentes = [
         },
         {
                 'id': 2,
-                'nome': '',
+                'nome': 'Sebastian Cote',
+                'local': 'Montreal, QC',
                 'agente': 'Buck',
                 'gadgets': '12 espingarda acoplada',
                 'especialidade': 'invasão, suporte',
@@ -38,7 +40,8 @@ agentes = [
         },
         {
                 'id': 3,
-                'nome': '',
+                'nome': 'Ana Valentina Diaz',
+                'local':'Zipaquira, Colombia',
                 'agente': 'SOLIS',
                 'gadgets': 'SPEC-IO Electro_Sensor',
                 'especialidade': 'intel, suporte',
